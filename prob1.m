@@ -1,0 +1,1 @@
+function m=prob1()  %problema1  %a  x = 0 : pi/40 : 2 * pi;  f= 2*cos(2*x+1),3*sin(x);  subplot(2,2,1)  plot(x,f)  %b  subplot(2,2,2)  x = 0 : pi/40 : 2 * pi;  z= 5*cos(4*x+9),7*sin(x);  plot(x,z)  %c  subplot(2,2,3)  x = 0 : pi/40 : 2 * pi;  t= 1*cos(10*x+1),1*sin(x);  plot(x,t)end
